@@ -70,21 +70,21 @@ a {
   display: block;
   color: #fff;
   opacity: 80%;
-  margin-bottom: 25px;
+  margin-bottom: 75px;
 }
 
 .line {
   position: absolute;
   color: #71870e;
   font-family: "Quattrocento Sans";
-  width: 1526px;
+  width: 100%;
   font-weight: 400;
   font-size: 16px;
-  left: -32px;
+  padding-left: 0;
 }
 
 h1 {
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 96px;
   font-weight: 400;
   color: #fff;
