@@ -1,7 +1,27 @@
-.body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Quattrocento Sans", sans-serif;
+body {
+  font-family: "Montserrat", sans-serif, "Quattrocento Sans", sans-serif;
 }
+
+h1 {
+  /* font-style: italic; */
+  font-size: 96px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+a:hover,
+a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .container {
   text-align: center;
   width: 100%;
@@ -46,20 +66,9 @@
   text-decoration: underline;
 }
 
-a:hover,
-a:focus {
-  color: #fff;
-  text-decoration: underline;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .simplicity {
   display: block;
-  padding-top: 27px;
+  margin-top: 27px;
   text-align: left;
   padding-left: 135px;
   color: #fff;
@@ -73,21 +82,18 @@ a {
   margin-bottom: 75px;
 }
 
+.portrait {
+  position: relative;
+}
+
 .line {
   position: absolute;
+  bottom: 75px;
   color: #71870e;
   font-family: "Quattrocento Sans";
   width: 100%;
   font-weight: 400;
   font-size: 16px;
   padding-left: 0;
-}
-
-h1 {
-  /* font-style: italic; */
-  font-size: 96px;
-  font-weight: 400;
-  color: #fff;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin: 0 auto;
 }
