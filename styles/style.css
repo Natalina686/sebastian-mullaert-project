@@ -1,5 +1,19 @@
+@font-face {
+  font-family: 'Ogg';
+  src: url(/fonts/OggRegular.woff2),
+  url(/fonts/OggRegular.woff),
+  url(/fonts/OggRegular.otf);
+}
+
+@font-face {
+  font-family: 'Trade Gothic LT';
+  src: url(/fonts/Trade\ Gothic\ LT\ Extended.woff2),
+  url(/fonts/Trade\ Gothic\ LT\ Extended.woff),
+  url(/fonts/Trade\ Gothic\ LT\ Extended.otf);
+}
+
 body {
-  font-family: "Montserrat", sans-serif, "Quattrocento Sans", sans-serif;
+  font-family: "Ogg", "Trade Gothic LT";
 }
 
 h1 {
@@ -75,6 +89,10 @@ a {
   opacity: 80%;
 }
 
+h1 {
+  font-family: "Ogg";
+}
+
 .biography {
   display: block;
   color: #fff;
@@ -90,7 +108,7 @@ a {
   position: absolute;
   bottom: 75px;
   color: #71870e;
-  font-family: "Quattrocento Sans";
+  font-family: "Trade Gothic LT";
   width: 100%;
   font-weight: 400;
   font-size: 16px;
