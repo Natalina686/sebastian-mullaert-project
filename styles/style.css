@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'Ogg';
-  src: url(/fonts/OggRegular.woff2),
-  url(/fonts/OggRegular.woff),
-  url(/fonts/OggRegular.otf);
+  src: url(./fonts/OggRegular.woff2),
+  url(./fonts/OggRegular.woff),
+  url(./fonts/OggRegular.otf);
 }
 
 @font-face {
   font-family: 'Trade Gothic LT';
-  src: url(/fonts/Trade\ Gothic\ LT\ Extended.woff2),
-  url(/fonts/Trade\ Gothic\ LT\ Extended.woff),
-  url(/fonts/Trade\ Gothic\ LT\ Extended.otf);
+  src: url(./fonts/Trade\ Gothic\ LT\ Extended.woff2),
+  url(./fonts/Trade\ Gothic\ LT\ Extended.woff),
+  url(./fonts/Trade\ Gothic\ LT\ Extended.otf);
 }
 
 body {
