@@ -1,23 +1,44 @@
-@font-face {
-  font-family: 'Ogg';
-  src: url(./fonts/OggRegular.woff2),
-  url(./fonts/OggRegular.woff),
-  url(./fonts/OggRegular.otf);
-}
 
-@font-face {
-  font-family: 'Trade Gothic LT';
-  src: url(./fonts/Trade\ Gothic\ LT\ Extended.woff2),
-  url(./fonts/Trade\ Gothic\ LT\ Extended.woff),
-  url(./fonts/Trade\ Gothic\ LT\ Extended.otf);
-}
 
 body {
-  font-family: "Ogg", "Trade Gothic LT";
+  font-family: "Ogg";
+  font-family: "Trade Gothic LT";
 }
 
+
+@font-face {
+  font-family: 'Ogg Italy';
+  src: url('fonts/OggLightItalic.woff2') format('woff2'),
+       url('fonts/OggLightItalic.woff') format('woff'),
+       url('fonts/OggLightItalic.otf') format('otf'),
+       url('fonts/OggLightItalic.ttf') format('ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ogg Medium';
+  src: url('fonts/OggLight.woff2') format('woff2'),
+       url('fonts/OggLight.woff') format('woff'),
+       url('fonts/OggLight.otf') format('otf'),
+       url('fonts/OggLight.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trade Gothic';
+  src: url('fonts/Trade\ Gothic\ LT\ Extended.woff2') format('woff2'),
+       url('fonts/Trade\ Gothic\ LT\ Extended.woff') format('woff'),
+       url('fonts/Trade\ Gothic\ LT\ Extended.otf') format('otf'),
+       url('fonts/Trade\ Gothic\ LT\ Extended.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
 h1 {
-  /* font-style: italic; */
+  font-style: italic; 
   font-size: 96px;
   font-weight: 400;
   color: #fff;
